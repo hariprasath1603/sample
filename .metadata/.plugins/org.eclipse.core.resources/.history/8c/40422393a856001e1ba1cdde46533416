@@ -1,0 +1,17 @@
+package practice;
+public class Child extends Parent{
+public void print() {
+System.out.println("Child class method");
+}
+public static void main(String[] args) {
+Child c=new Child();
+c.print();
+}
+}
+Parent class:
+---------------
+public class Parent {
+public void print() {
+System.out.println("Parent class method"); //overrided method
+}
+}

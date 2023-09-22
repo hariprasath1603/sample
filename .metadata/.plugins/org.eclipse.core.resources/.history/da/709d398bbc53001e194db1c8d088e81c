@@ -1,0 +1,15 @@
+package practice;
+
+public class ccgm {
+	  static void myMethod() {
+	    
+	  }
+
+	  public static void main(String[] args) {
+	    myMethod();
+	    System.out.println("I just got executed!");
+	  }
+	}
+	
+
+

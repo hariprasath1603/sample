@@ -1,0 +1,52 @@
+package practice;
+
+abstract class Shape {
+ abstract double area ();
+
+}
+	class Square extends Shape {
+		private double side ;
+		public Square (double side) {
+			this.side=side;
+		}
+		 double area () {
+		        return side * side;
+		}
+	}
+class Triangle extends Shape {
+	private double base;
+	private double height;
+	public Triangle (double base, double height) {
+		this.base= base;
+		this.height=height;
+		
+}
+	
+	
+	
+	double area() {
+		// TODO Auto-generated method stub
+		return 0.5 * base * height ;
+}}
+public class AbstractDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ Shape[] shapes = new Shape[2];
+ shapes[0] = new Square(4.0);
+ shapes[1] = new Triangle(3.0,5.0);
+ 
+ 
+ for (Shape shape : shapes) {
+	 System.out.println("Area : " + shape.area());
+ }
+ 
+  
+	   
+   }
+ 
+   
+}
+	
+
+

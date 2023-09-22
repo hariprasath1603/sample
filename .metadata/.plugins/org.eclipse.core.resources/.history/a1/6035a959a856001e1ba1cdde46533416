@@ -1,0 +1,19 @@
+package practice;
+
+public class Overload {
+		static int plusmethod (int x, int y) {
+			return x+y;
+}
+		static double plusemethod (double x, double y) {
+			return x+y;
+		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int num1 = plusmethod (5,6);
+			double num2 = plusemethod (5.5,6.6);
+			System.out.println("int: "+ num1);
+			System.out.println("double: "+ num2);
+			
+	}
+
+}

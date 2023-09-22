@@ -1,0 +1,25 @@
+package practice;
+
+public class Overload {
+	public void stuDetails() {
+		System.out.println("Student details");
+		}
+		public void stuDetails(int stuId) {
+		System.out.println("Student id: "+stuId);
+		}
+		public void stuDetails(String stuName, int stuId) {
+		System.out.println("Student name: "+stuName);
+		System.out.println("Student id: "+stuId);
+		}
+		public void stuDetails(int StuId, String stuName) {
+		System.out.println("Student id: " + StuId);
+		System.out.println("Student name: "+stuName);
+		}
+		public static void main(String[] args) {
+		Overload s=new Overload();
+		s.stuDetails();
+		s.stuDetails(101);
+		s.stuDetails(102, "Java");
+		s.stuDetails("Java", 103);
+		}
+		}

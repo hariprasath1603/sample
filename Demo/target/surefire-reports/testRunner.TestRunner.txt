@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.741 s <<< FAILURE! - in testRunner.TestRunner
+Login with Valid Credentials.Successful Login with Valid Credentials  Time elapsed: 0.239 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User Launch browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Launch browser")
+public void user_launch_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("opens URL {string}")
+public void opens_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User navigate to MyAccount menu")
+public void user_navigate_to_my_account_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on Login")
+public void click_on_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters Email as {string} and Password as {string}")
+public void user_enters_email_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User navigates to MyAccount Page")
+public void user_navigates_to_my_account_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
